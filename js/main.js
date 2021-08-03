@@ -97,7 +97,7 @@ const parseGuess = (guess) => {
     if (guess === null || guess.length !== 2) {
         alert('нет таких координат')
     } else if (isNaN(col) || col >= model.boardSize || col < 0 || rowNumber >= model.boardSize || rowNumber < 0) {
-        alert('и таких тоже')
+        alert('нет таких координат алло')
     } else {
         return rowNumber + col;
     } return null;
