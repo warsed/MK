@@ -5,7 +5,7 @@ const view = {
     },
     displayMiss(location) {
         const cell = document.getElementById(location)
-        cell.classList.add('mis')
+        cell.classList.add('miss')
     },
     displayMessage(msg) {
         const message = document.getElementById('messageArea')
